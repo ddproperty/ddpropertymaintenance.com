@@ -112,7 +112,7 @@ export default function Home() {
                 </div>
                 <div className="contact-flex">
                   <div className="contact-card">
-                    <span className="contact-card-name">D & D Property Management</span>
+                    <span className="contact-card-name">D & D Property Maintenance</span>
                     <br />
                     <span className="contact-card-phone">
                       <FaPhoneAlt size="16px" style={{marginRight: "0.5rem"}} />
