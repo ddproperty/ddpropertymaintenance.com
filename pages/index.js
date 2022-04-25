@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 // Dependencies
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper';
-import { FaPhoneAlt } from 'react-icons/fa';
+import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 // Utils
 import { services } from '../utils/services'
 import { testimonials } from '../utils/testimonials';
@@ -111,13 +111,24 @@ export default function Home() {
                   <p className="contact-more-text">{"Additional services provided on request. Give us a call anytime and we'll come give you a FREE ESTIMATE!"}</p>
                 </div>
                 <div className="contact-flex">
-                  <div className="contact-card">
-                    <span className="contact-card-name">D & D Property Maintenance</span>
+                  <div className="contact-card" style={ { textAlign: 'center' } }>
+                    <center><span className="contact-card-name">D & D Property Maintenance</span></center>
                     <br />
+	      	    <span className="contact-card-phone">
+	      		<FaEnvelope size="16px" style={{marginRight: "0.5rem"}} />
+	      		<a href="mailto:service@ddpropertymaintenance.com">service@ddpropertymaintenance.com</a>
+	      	    </span>
+	      		<br />
+	      <br />
                     <span className="contact-card-phone">
                       <FaPhoneAlt size="16px" style={{marginRight: "0.5rem"}} />
-                      860-775-5775
+                      <a href="tel:+1-860-775-5775">+1-860-775-5775</a>
                     </span>
+	      <br />
+	      		<br />
+	      		<span className="contact-card-phone"><center>
+	      153 Boston Post Road<br />Ste 2 PMB1057<br />East Lyme, CT 06333
+	      </center></span>
                   </div>
                 </div>
               </div>
