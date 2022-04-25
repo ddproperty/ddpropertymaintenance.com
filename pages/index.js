@@ -23,13 +23,13 @@ export default function Home() {
 
   return (
     <>
-      <Script strategy="lazyOnload" src={'https://www.googletagmanager.com/gtag/js?id=G-FZ1GVL8SS6'}></Script>
+      <Script strategy="lazyOnload" src={'https://www.googletagmanager.com/gtag/js?id=UA-227017952-1'}></Script>
 	  <Script strategy="lazyOnload" id="gtag">{`
 	    window.dataLayer = window.dataLayer || [];
-	    function gtag(){dataLayer.push(arguments);}
-	    gtag('js', new Date());
+	      function gtag(){dataLayer.push(arguments);}
+	        gtag('js', new Date());
 
-	    gtag('config', 'G-FZ1GVL8SS6');`}
+		  gtag('config', 'UA-227017952-1');`}
 	  </Script>
       <Head>
         <title>D & D Property Maintenance</title>
