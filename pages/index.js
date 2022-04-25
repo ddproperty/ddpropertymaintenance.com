@@ -25,6 +25,7 @@ export default function Home() {
       <Head>
         <title>D & D Property Maintenance</title>
         <meta name="description" content="D & D Property Maintenance. Lawn care, gutter cleaning, floor remodels, and more! Servicing Connecticut and the greater New London county." />
+	<meta name="keywords" content="connecticut montville newlondon uncasville lawn care home repair property maintenance best top rated near me"
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
