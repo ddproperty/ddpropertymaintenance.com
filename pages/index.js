@@ -25,17 +25,8 @@ export default function Home() {
       <Head>
         <title>D & D Property Maintenance</title>
         <meta name="description" content="D & D Property Maintenance. Lawn care, gutter cleaning, floor remodels, and more! Servicing Connecticut and the greater New London county." />
-	<meta name="keywords" content="connecticut montville newlondon uncasville lawn care home repair property maintenance best top rated near me"
+	<meta name="keywords" content="connecticut montville newlondon uncasville lawn care home repair property maintenance best top rated near me" />
         <link rel="icon" href="/favicon.ico" />
-	  <!-- Global site tag (gtag.js) - Google Analytics -->
-	  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZ1GVL8SS6"></script>
-	  <script>
-	    window.dataLayer = window.dataLayer || [];
-	    function gtag(){dataLayer.push(arguments);}
-	    gtag('js', new Date());
-
-	    gtag('config', 'G-FZ1GVL8SS6');
-	  </script>
       </Head>
 
       {isLoading ? (
