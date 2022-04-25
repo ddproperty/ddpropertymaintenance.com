@@ -1,0 +1,45 @@
+@media screen and (min-width: 600px){
+    .services-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-grid {
+        gap: 2rem;
+    }
+    .contact-flex {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contact-card {
+        min-width: 250px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .contact-card {
+        min-width: 300px;
+    }
+    .contact-flex {
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .services-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .contact-flex {
+        gap: 3rem;
+    }
+    .contact-card {
+        min-width: 350px;
+    }
+    .contact-card-name {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .services-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
