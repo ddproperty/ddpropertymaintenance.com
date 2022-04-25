@@ -10,6 +10,7 @@ import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 // Utils
 import { services } from '../utils/services'
 import { testimonials } from '../utils/testimonials';
+import Script from 'next/script';
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,6 +23,14 @@ export default function Home() {
 
   return (
     <>
+      <Script strategy="lazyOnload" src={'https://www.googletagmanager.com/gtag/js?id=G-FZ1GVL8SS6'}></Script>
+	  <Script strategy="lazyOnload" id="gtag">{`
+	    window.dataLayer = window.dataLayer || [];
+	    function gtag(){dataLayer.push(arguments);}
+	    gtag('js', new Date());
+
+	    gtag('config', 'G-FZ1GVL8SS6');`}
+	  </Script>
       <Head>
         <title>D & D Property Maintenance</title>
         <meta name="description" content="D & D Property Maintenance. Lawn care, gutter cleaning, floor remodels, and more! Servicing Connecticut and the greater New London county." />
