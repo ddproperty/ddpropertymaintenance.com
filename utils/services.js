@@ -49,5 +49,15 @@ export const services = [
         id: 8,
         text: "Graffiti Removal",
         icon: FaPaintRoller
-    }
+    },
+    {
+        id: 9,
+        text: "Interior Demolition",
+        icon: TiScissors
+    },
+    {
+        id: 10,
+        text: "Debris Removal",
+        icon: TiScissors
+    },
 ];
