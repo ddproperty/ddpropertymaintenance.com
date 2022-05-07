@@ -44,5 +44,10 @@ export const services = [
         id: 7,
         text: "Hedge Trimming",
         icon: TiScissors
+    },
+    {
+        id: 8,
+        text: "Graffiti Removal",
+        icon: FaPaintRoller
     }
 ];
