@@ -32,8 +32,8 @@ export default function Home() {
 		  gtag('config', 'UA-227017952-1');`}
 	  </Script>
       <Head>
-        <title>D & D Property Maintenance</title>
-        <meta name="description" content="D & D Property Maintenance. Lawn care, gutter cleaning, floor remodels, and more! Servicing Connecticut and the greater New London county." />
+        <title>D & D Maintenance Services LLC</title>
+        <meta name="description" content="D & D Maintenance Services LLC. Lawn care, gutter cleaning, floor remodels, and more! Servicing Connecticut and the greater New London county." />
 	<meta name="keywords" content="landscaping services near me landscaping services list affordable lawn care near me homeadvisor ct natural lawn care ct landscaping hedge trimming tree removal gutters trash removal floor remodels painting staining pressure washing interior demolition debris removal" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -57,7 +57,7 @@ export default function Home() {
               />
 
               <h1 className="title">
-                D&D Property Maintenance
+                D & D Maintenance Services LLC
               </h1>
 
               <p className="description">
@@ -122,11 +122,11 @@ export default function Home() {
                 </div>
                 <div className="contact-flex">
                   <div className="contact-card" style={ { textAlign: 'center' } }>
-                    <center><span className="contact-card-name">D & D Property Maintenance</span></center>
+                    <center><span className="contact-card-name">D & D Maintenance Services LLC</span></center>
                     <br />
 	      	    <span className="contact-card-phone">
 	      		<FaEnvelope size="16px" style={{marginRight: "0.5rem"}} />
-	      		<a href="mailto:service@ddpropertymaintenance.com">service@ddpropertymaintenance.com</a>
+	      		<a href="mailto:info@ddmaintenance.services">info@ddmaintenance.services</a>
 	      	    </span>
 	      		<br />
 	      <br />
@@ -146,7 +146,7 @@ export default function Home() {
           </main>
 
           <footer className="footer">
-            <span>Copyright 2022 &copy; D&D Property Maintenance</span>
+            <span>Copyright 2022 &copy; D & D Maintenance Services LLC</span>
           </footer>
         </>
       )}
