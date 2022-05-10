@@ -52,11 +52,6 @@ export const services = [
     },
     {
         id: 9,
-        text: "Interior Demolition",
-        icon: TiScissors
-    },
-    {
-        id: 10,
         text: "Debris Removal",
         icon: TiScissors
     },
