@@ -34,7 +34,7 @@ export default function Home() {
       <Head>
         <title>D & D Property Maintenance</title>
         <meta name="description" content="D & D Property Maintenance. Lawn care, gutter cleaning, floor remodels, and more! Servicing Connecticut and the greater New London county." />
-	<meta name="keywords" content="landscaping services near me landscaping services list affordable lawn care near me homeadvisor ct natural lawn care ct landscaping hedge trimming tree removal gutters trash removal floor remodels painting staining pressure washing interior demolition debris removal" />
+	<meta name="keywords" content="landscaping services near me landscaping services list affordable lawn care near me homeadvisor ct natural lawn care ct landscaping hedge trimming tree removal gutters trash removal floor remodels painting staining pressure washing debris removal" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
