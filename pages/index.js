@@ -146,7 +146,7 @@ export default function Home() {
           </main>
 
           <footer className="footer">
-            <span>Copyright 2022 &copy; D & D Maintenance Services LLC</span>
+            <span>Copyright 2022 &copy; D AND D MAINTENANCE SERVICES LLC</span>
           </footer>
         </>
       )}
