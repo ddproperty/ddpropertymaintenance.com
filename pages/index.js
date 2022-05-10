@@ -32,7 +32,7 @@ export default function Home() {
 		  gtag('config', 'UA-227017952-1');`}
 	  </Script>
       <Head>
-        <title>D & D Maintenance Services LLC</title>
+        <title>D & D Maintenance Services</title>
         <meta name="description" content="D & D Maintenance Services LLC. Lawn care, gutter cleaning, floor remodels, and more! Servicing Connecticut and the greater New London county." />
 	<meta name="keywords" content="landscaping services near me landscaping services list affordable lawn care near me homeadvisor ct natural lawn care ct landscaping hedge trimming tree removal gutters trash removal floor remodels painting staining pressure washing debris removal" />
         <link rel="icon" href="/favicon.ico" />
@@ -57,7 +57,7 @@ export default function Home() {
               />
 
               <h1 className="title">
-                D & D Maintenance Services LLC
+                D & D Maintenance Services
               </h1>
 
               <p className="description">
